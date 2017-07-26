@@ -1,11 +1,10 @@
 {
   "name": "laksa-klaxon-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core functionality for Laksa Klaxon",
   "main": "index.js",
   "scripts": {
     "test": "mocha -R mochawesome --reporter-options reportDir='./test-results',reportFilename='test-report.html',inlineAssets=true,quiet=true --recursive test"
-
   },
   "repository": {
     "type": "git",
