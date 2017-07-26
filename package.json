@@ -22,6 +22,9 @@
     "url": "https://github.com/jamlen/laksa-klaxon-core/issues"
   },
   "homepage": "https://github.com/jamlen/laksa-klaxon-core",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
   "dependencies": {
     "bluebird": "^3.5.0",
     "cheerio": "^1.0.0-rc.2",
