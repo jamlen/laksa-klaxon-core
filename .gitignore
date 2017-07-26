@@ -1,3 +1,6 @@
+## Application specific ignores
+test-results
+
 # Logs
 logs
 *.log

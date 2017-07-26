@@ -1,0 +1,37 @@
+{
+  "name": "laksa-klaxon-core",
+  "version": "1.0.0",
+  "description": "Core functionality for Laksa Klaxon",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R mochawesome --reporter-options reportDir='./test-results',reportFilename='test-report.html',inlineAssets=true,quiet=true --recursive test"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamlen/laksa-klaxon-core.git"
+  },
+  "keywords": [
+    "laksa",
+    "soup",
+    "klaxon"
+  ],
+  "author": "jamlen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamlen/laksa-klaxon-core/issues"
+  },
+  "homepage": "https://github.com/jamlen/laksa-klaxon-core",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "deride": "^1.1.0",
+    "mocha": "^3.4.2",
+    "mochawesome": "^2.3.0",
+    "rewire": "^2.5.2",
+    "should": "^11.2.1"
+  }
+}
