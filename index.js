@@ -32,8 +32,6 @@ module.exports.checkCity = (city) => {
         return Promise.resolve([]);
     }
 
-    console.log(`Checking ${city} for laksa...`);
-
     let laksaToday = false;
     return Promise.map(Object.keys(locations[key]), (place) => {
         return Promise.fromNode(function (cb) {
